@@ -23,8 +23,13 @@ h2 {
 
 .flex-container {
     display: flex;
-    display: inline-flex;
-    border: 3px solid black;
+    /* display: inline-flex; */
+    border: 5px solid black;
+
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
 }
 
 .flex-element {
