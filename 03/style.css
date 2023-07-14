@@ -26,10 +26,11 @@ h2 {
     display: inline-flex;
     border: 5px solid black;
     width: 300px;
-    
-    flex-wrap: nowrap;
+
+    /* flex-wrap: nowrap;
     flex-wrap: wrap;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse; */
+    flex-flow: row nowrap;
 }
 
 .flex-element {
