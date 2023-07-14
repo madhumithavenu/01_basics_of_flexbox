@@ -23,13 +23,7 @@ h2 {
 
 .flex-container {
     display: flex;
-    display: inline-flex;
     border: 5px solid black;
-    width: 300px;
-
-    /* flex-wrap: nowrap;
-    flex-wrap: wrap;
-    flex-wrap: wrap-reverse; */
 }
 
 .flex-element {
@@ -37,10 +31,13 @@ h2 {
     background-color: #E53935;
 }
 
+.flex-element:nth-child(1) {
+}
 .flex-element:nth-child(2) {
     background-color: #8E24AA;
 }
 
 .flex-element:nth-child(3) {
+    order: -1;
     background-color: #3F51B5;
 }
